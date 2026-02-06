@@ -64,10 +64,10 @@ CPU and RAM allocations are set to allow multiple VMs to run simultaneously with
 ## Domain & Hostname Strategy
 
 - Domain name: LAB.LOCAL
-- Windows Server hostname: SRV2022
-- Windows client hostnames: WIN10-CLIENT, WIN11-CLIENT
-- Kali hostname: KALI-LAB (optional domain join)
-- Fully qualified domain example: WIN10-CLIENT.LAB.LOCAL
+- Windows Server hostname: SRV22-LOCD
+- Windows client hostnames: WIN10-LOCD, WIN11-LOCD
+- Kali hostname: KALI-LOCD
+- Fully qualified domain example: WIN10-LOCD.LAB.LOCAL
 
 Keeping hostnames and domains consistent ensures clarity and prevents conflicts.
 
