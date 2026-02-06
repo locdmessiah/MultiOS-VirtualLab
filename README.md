@@ -44,11 +44,19 @@ CPU and RAM allocations are set to allow multiple VMs to run simultaneously with
 
 ## Installation Notes
 
-- **Kali Linux:** installed using guided partitioning; GRUB bootloader installed; VMware Tools installed for smooth integration; hostname: KALI-LAB
-- **Windows VMs:** default installation with admin accounts; Windows 10/11 clients configured to join the LAB.LOCAL domain after the server is set up; hostnames follow consistent naming conventions
-- **Ubuntu:** Linux client/server integration
-- Disks: growable virtual disks to save space on the external SSD
-- CPU and RAM allocations are moderate to allow multiple VMs to run simultaneously
+- **Kali Linux:** installed using Debian 13.x 64-bit base image guided partitioning.
+- Hostname: locdmessiah
+- Local user created during installation.
+- Disk: 60 GB single file virtual disk.
+- Network: NAT
+- 
+- **Windows 11:** installed using UEFI firmware with virtual TPM and Secure Boot enabled.
+- Edition: Windows 11 Pro
+- No product key used for lab installation
+- Local account created for lab use
+- Disk: 80 GB single file virtual disk.
+- Network: NAT
+- GRUB bootloader installed.
 
 ---
 
