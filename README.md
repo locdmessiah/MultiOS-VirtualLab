@@ -1,5 +1,3 @@
-This is my first IT lab project: I built a fully documented multi-OS virtual environment with Kali Linux, Ubuntu, Windows 10/11, and Windows Server. In this lab, I showcase my skills in hands-on virtualization, domain and network setup, and system administration.
-
 # MultiOS Virtual Lab
 
 This is my first IT lab project. I built a fully documented multi-OS virtual environment with Kali Linux, Ubuntu, Windows 10/11, and Windows Server 2022. My goal was to set up a lab that allows me to practice and showcase skills in virtualization, system administration, networking, and domain management.
@@ -42,15 +40,13 @@ CPU and RAM allocations are set to allow multiple VMs to run simultaneously with
 - External SSD stores all VM virtual disks for portability
 - I use snapshots to preserve clean states before making major changes
 
-> Placeholder for diagram: `Docs/Network-Diagram.png`
-
 ---
 
 ## Installation Notes
 
 - **Kali Linux:** installed using guided partitioning; GRUB bootloader installed; VMware Tools installed for smooth integration; hostname: KALI-LAB
 - **Windows VMs:** default installation with admin accounts; Windows 10/11 clients configured to join the LAB.LOCAL domain after the server is set up; hostnames follow consistent naming conventions
-- **Ubuntu:** optional Linux client/server integration
+- **Ubuntu:** Linux client/server integration
 - Disks: growable virtual disks to save space on the external SSD
 - CPU and RAM allocations are moderate to allow multiple VMs to run simultaneously
 
