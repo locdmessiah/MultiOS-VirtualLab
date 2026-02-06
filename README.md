@@ -45,12 +45,13 @@ CPU and RAM allocations are set to allow multiple VMs to run simultaneously with
 ## Installation Notes
 
 - **Kali Linux:** installed using Debian 13.x 64-bit base image guided partitioning.
-- Hostname: locdmessiah
+- Hostname: kali-locd
 - Local user created during installation.
 - Disk: 60 GB single file virtual disk.
 - Network: NAT
 - 
 - **Windows 11:** installed using UEFI firmware with virtual TPM and Secure Boot enabled.
+- Hostname: WIN11-LOCD
 - Edition: Windows 11 Pro
 - No product key used for lab installation
 - Local account created for lab use
