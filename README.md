@@ -35,10 +35,10 @@ CPU and RAM allocations are set to allow multiple VMs to run simultaneously with
 
 ## Lab Architecture
 
-- Host machine: Windows (or macOS/Linux) running VMware Workstation
+- Host machine: Windows running VMware Workstation
 - Virtual network:
   - NAT for internet access
-  - Host-only for isolated internal lab network (optional)
+  - Host-only for isolated internal lab network 
 - External SSD stores all VM virtual disks for portability
 - I use snapshots to preserve clean states before making major changes
 
@@ -70,5 +70,5 @@ Keeping hostnames and domains consistent ensures clarity and prevents conflicts.
 
 ## Security & Credentials
 
-I document usernames, passwords, and hostnames internally in the Docs folder using placeholders. No sensitive personal data is included. Example:
+I document usernames, passwords, and hostnames internally in the Docs folder using placeholders. No sensitive personal data is included.
 
