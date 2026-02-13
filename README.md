@@ -49,7 +49,6 @@ CPU and RAM allocations are set to allow multiple VMs to run simultaneously with
 - Local user created during installation.
 - Disk: 60 GB single file virtual disk.
 - Network: NAT
-- 
 - **Windows 11:** installed using UEFI firmware with virtual TPM and Secure Boot enabled.
 - Hostname: WIN11-LOCD
 - Edition: Windows 11 Pro
